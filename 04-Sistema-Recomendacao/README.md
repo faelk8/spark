@@ -11,4 +11,29 @@
 
 </div>
 
-Desenvolvendo um sistema de recomendação;
+Desenvolvendo um sistema de recomendação
+
+# Dicionário de Dados
+Contém as informações de cada coluna
+
+# Análise
+* Ano 
+  * Loudness
+  * Acousticness
+  * Valence
+  * Danceability
+  * Energy
+  * Instrumentalness
+  * Liveness
+  * Speechiness
+
+* Correlação 
+
+# PCA
+Os dados foram colocado na mesma escala para aplicar o PCA com redução para 2 colunas. Depois no dataset original foi adionado as 2 colunas como nova features.
+
+# K-means
+Os dados foram agrupados utilizando o K-means e o seu valor foi adicionado no dataset como uma nova feature.
+
+# Sistema de recomendação 
+Distância Euclidiana
